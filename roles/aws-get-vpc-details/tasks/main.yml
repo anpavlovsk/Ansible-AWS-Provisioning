@@ -2,7 +2,9 @@
 # tasks file for aws-get-vpc-details
 - name: Get VPC Details
   amazon.aws.ec2_vpc_net_info:
-    profile: "{{ aws_boto_profile }}"
+#    profile: "{{ aws_boto_profile }}"
+    aws_access_key: "{{ aws_access_key }}"
+    aws_secret_key: "{{ aws_secret_key }}"  
     region: "{{ aws_region }}"
   register: aws_vpc_details
   #  filters:
@@ -14,7 +16,8 @@
 
 - name: Fetch VPC Subnets
   amazon.aws.ec2_vpc_subnet_info:
-    profile: "{{ aws_boto_profile }}"
+    aws_access_key: "{{ aws_access_key }}"
+    aws_secret_key: "{{ aws_secret_key }}"
     region: "{{ aws_region }}"
   register: aws_vpc_subnet_details
 
