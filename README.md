@@ -51,74 +51,7 @@ ok: [localhost]
 
 TASK [aws-create-elb : Print Public DNS] *******************************************************************************************************************************************************************
 ok: [localhost] => {
-    "msg": {
-        "ansible_facts": {
-            "ec2_elb": "info"
-        },
-        "changed": false,
-        "elb": {
-            "app_cookie_policy": null,
-            "backends": [
-                "80:ProxyProtocol-policy"
-            ],
-            "connection_draining_timeout": 300,
-            "cross_az_load_balancing": "no",
-            "dns_name": "ansible-iac-demo-elb-app-lb-1354161592.ap-southeast-1.elb.amazonaws.com",
-            "health_check": {
-                "healthy_threshold": 10,
-                "interval": 30,
-                "target": "TCP:80",
-                "timeout": 5,
-                "unhealthy_threshold": 2
-            },
-            "hosted_zone_id": "Z1LMS91P8CMLE5",
-            "hosted_zone_name": "ansible-iac-demo-elb-app-lb-1354161592.ap-southeast-1.elb.amazonaws.com",
-            "idle_timeout": 60,
-            "in_service_count": 2,
-            "instance_health": [
-                {
-                    "instance_id": "i-0400a0652832893dc",
-                    "reason_code": "N/A",
-                    "state": "InService"
-                },
-                {
-                    "instance_id": "i-0af69193cf82fb0aa",
-                    "reason_code": "N/A",
-                    "state": "InService"
-                }
-            ],
-            "instances": [
-                "i-0af69193cf82fb0aa",
-                "i-0400a0652832893dc"
-            ],
-            "lb_cookie_policy": null,
-            "listeners": [
-                [
-                    80,
-                    80,
-                    "HTTP",
-                    "HTTP"
-                ]
-            ],
-            "name": "ansible-iac-demo-elb-app-lb",
-            "out_of_service_count": 0,
-            "proxy_policy": "ProxyProtocol-policy",
-            "region": "ap-southeast-1",
-            "scheme": "internet-facing",
-            "security_group_ids": [
-                "sg-01e091af04d4c4db2"
-            ],
-            "status": "ok",
-            "subnets": null,
-            "tags": null,
-            "unknown_instance_state_count": 0,
-            "zones": [
-                "ap-southeast-1b",
-                "ap-southeast-1a"
-            ]
-        },
-        "failed": false
-    }
+    "msg": "ansible-iac-demo-elb-app-lb-1354161592.ap-southeast-1.elb.amazonaws.com"
 }
 
 TASK [aws-create-elb : Collect ELB Public DNS] *************************************************************************************************************************************************************
@@ -173,12 +106,12 @@ ok: [localhost] => (item=18.136.207.125)
 PLAY [Deploy Webserver to EC2 instances] *******************************************************************************************************************************************************************
 
 TASK [Gathering Facts] *************************************************************************************************************************************************************************************
-[WARNING]: Platform linux on host 52.77.215.237 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change the meaning of that path.
-See https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
-ok: [52.77.215.237]
 [WARNING]: Platform linux on host 18.136.207.125 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change the meaning of that
 path. See https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
 ok: [18.136.207.125]
+[WARNING]: Platform linux on host 52.77.215.237 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change the meaning of that path.
+See https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+ok: [52.77.215.237]
 
 TASK [Deploy Web service] **********************************************************************************************************************************************************************************
 
@@ -195,24 +128,24 @@ ok: [52.77.215.237]
 ok: [18.136.207.125]
 
 TASK [deploy-web-server : Enable and Run Firewalld] ********************************************************************************************************************************************************
-ok: [52.77.215.237]
 ok: [18.136.207.125]
+ok: [52.77.215.237]
 
 TASK [deploy-web-server : firewalld permitt httpd service] *************************************************************************************************************************************************
 ok: [18.136.207.125]
 ok: [52.77.215.237]
 
 TASK [deploy-web-server : httpd enabled and running] *******************************************************************************************************************************************************
-ok: [52.77.215.237]
 ok: [18.136.207.125]
+ok: [52.77.215.237]
 
 TASK [deploy-web-server : Git checkout] ********************************************************************************************************************************************************************
-changed: [18.136.207.125]
 changed: [52.77.215.237]
+changed: [18.136.207.125]
 
 TASK [deploy-web-server : Set Hostname on Site] ************************************************************************************************************************************************************
-changed: [52.77.215.237]
 changed: [18.136.207.125]
+changed: [52.77.215.237]
 
 PLAY [IaC Summary] *****************************************************************************************************************************************************************************************
 
