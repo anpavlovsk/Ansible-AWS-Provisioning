@@ -1,5 +1,8 @@
 # Ansible-AWS-Provisioning
 ### Build a web server infrastructure and application
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/web-infra.png?raw=true)
+
+
 Demo of full-stack infrastructure deployment including:
 
 * Security groups
