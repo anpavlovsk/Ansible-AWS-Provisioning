@@ -170,9 +170,14 @@ localhost                  : ok=18   changed=0    unreachable=0    failed=0    s
 </details>
 
 
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/resources.png?raw=true)
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/instances.png?raw=true)
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/secgroups.png?raw=true)
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/lb.png?raw=true)
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_101.png?raw=true)
-![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_102.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/resources.png?raw=true) 
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/instances.png?raw=true)  
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/secgroups.png?raw=true) 
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/lb.png?raw=true) 
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_101.png?raw=true) 
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_102.png?raw=true) 
