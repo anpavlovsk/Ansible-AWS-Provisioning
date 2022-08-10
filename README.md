@@ -17,8 +17,10 @@ Enter the following to tell Ansible to create all the resources and show the ELB
 ````
 ansible-playbooks aws-infra-provisioning.yaml
 ````
-Output
-````
+<details>
+<summary>Output</summary>
+<pre>$ 
+
 PLAY [Provision AWS Infrastructure] ************************************************************************************************************************************************************************
 
 TASK [Fetch VPC ID] ****************************************************************************************************************************************************************************************
@@ -164,4 +166,5 @@ PLAY RECAP *********************************************************************
 18.136.207.125             : ok=9    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 52.77.215.237              : ok=9    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 localhost                  : ok=18   changed=0    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
-````
+</pre>
+</details>
