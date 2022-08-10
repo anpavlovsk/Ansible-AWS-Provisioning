@@ -22,9 +22,9 @@
 
 - name: Print Public DNS
   ansible.builtin.debug:
-   msg: "{{ elbcreated }}"
+   msg: "{{ elbcreated.elb.dns_name }}"
 
 - name: Collect ELB Public DNS
   ansible.builtin.set_fact:
- #   elb_public_dns: "{{ elbcreated.elb.dns_name }}"
+    elb_public_dns: "{{ elbcreated.elb.dns_name }}"
 
