@@ -168,3 +168,11 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=18   changed=0    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
 </pre>
 </details>
+
+
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/resources.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/instances.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/secgroups.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/lb.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_101.png?raw=true)
+![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/aws_web_102.png?raw=true)
