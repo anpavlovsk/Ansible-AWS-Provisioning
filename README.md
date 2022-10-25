@@ -3,7 +3,7 @@
 ![alt text](https://github.com/anpavlovsk/Ansible-AWS-Provisioning/blob/main/screenshots/web-infra.png?raw=true)
 
 
-Demo of full-stack infrastructure deployment including:
+Full-stack infrastructure deployment including:
 
 * Security groups
 * ELB target groups
